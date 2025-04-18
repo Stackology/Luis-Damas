@@ -1,5 +1,13 @@
 # include <stdio.h>
 
+/**
+ * @brief Imprime o tamanho em bytes de varios tipos de dados
+ *
+ * @details Utiliza a fun o sizeof() para obter o tamanho em bytes de cada tipo
+ * e imprime o resultado na tela
+ *
+ * @return 0
+ */
 int main(int argc, char const *argv[])
 {
     printf("O tamanho em bytes de um float = %d\n", sizeof(float));
